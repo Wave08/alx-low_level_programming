@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -E $CFILE -o c
+# "MY FIRST C PRORAMME SO EXCITED!"
 
