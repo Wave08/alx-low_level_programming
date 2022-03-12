@@ -7,7 +7,9 @@
  * Descriptio: using the main function
  * this program prints "prints the last digit store in n
  * Return: 0
- * */
+ */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
