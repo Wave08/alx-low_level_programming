@@ -1,13 +1,15 @@
 #include <stdio.h>
 /**
- * main program that prints numbers from 0 to 99 without figure repeate.
+ * main - print if number is positive, zero, or negative
+ * Description: using the main function
+ * this program prints "Prints numbers from 0 to 90 without figure repeate
  * Return: 0
  */
 
 int main(void)
 
 {
-	int i,j;
+	int i, j;
 
 	i = 0;
 	j = 0;
@@ -23,6 +25,7 @@ int main(void)
 			if (i < 8 || j < 9)
 			{
 				putchar(',');
+
 				putchar(' ');
 			}
 			j++;
@@ -30,5 +33,6 @@ int main(void)
 		++i;
 	}
 	putchar('\n');
+
 	 return (0);
 }
