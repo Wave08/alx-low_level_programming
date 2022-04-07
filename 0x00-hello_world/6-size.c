@@ -1,25 +1,26 @@
-include < stdio.h >
+#include <stdio.h>
 
 /**
- * main - Entry point
+ * main - print string in the put function
  *
- * Return: Always 0
+ * Description: using mai function
+ * this program prints "Programming is like building a multilingual puzzle
+ * Return: 0
  */
 
 int main(void)
 {
-	char character;
-	int ainteger;
-	long along;
-	long long alonglong;
-	float afloat;
+	char c;
+	int i;
+	long li;
+	long long lli;
+	float f;
 
-	printf("Size of a char: %lu byte(s)\n", sizeof(acharacter));
-	printf("Size of an int: %lu bytes(s)\n", sizeof(ainteger));
-	printf("Size of a long int: %lu byte(s)\n", sizeof(along));
-	printf("Size of a long longa int: %lu byte(s)\n", sizeof(alonglong));
-	printf("SIze of a float: %lu byte(S)\n", sizeof(afloat));
-
+	printf("Size of a char: %ld byte(s)\n", sizeof(c));
+	printf("Size of an int: %ld bytes(s)\n", sizeof(i));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(li));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
+	printf("SIze of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }
 
