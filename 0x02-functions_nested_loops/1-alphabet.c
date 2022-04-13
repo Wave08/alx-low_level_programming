@@ -1,11 +1,8 @@
 #include "main.h"
 /**
- * main - print if number is positive, zero, or negative
- * using main function
- * Description: this program prints "Prints alphabet in lowercase
- * Return: 0
+ * print_alphabet - llamar la function desde el main
  */
-int main(void)
+void print_alphabet(void)
 
 {
 	char i;
@@ -15,5 +12,4 @@ int main(void)
 		_putchar(i);
 	}
 	_putchar('\n');
-	return (0);
 }
