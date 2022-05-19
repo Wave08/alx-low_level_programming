@@ -1,2 +1,1 @@
-#!/bin/bash
-# " Functions nested loops projects "
+# Functions nested loops projects
